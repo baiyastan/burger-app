@@ -1,0 +1,30 @@
+.CheckoutSummary {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.Button{
+    padding: 15;
+
+}
+
+
+@media (min-width: 600px) {
+    .CheckoutSummary {
+        width: 500px;
+    }
+    .Button{
+        justify-content: center;
+        margin: 50px;
+        padding: 50px;
+    }
+}
+@media (min-width: 1000px) {
+    .CheckoutSummary {
+        width: 500px;
+    }
+    .Button{
+        justify-content: center;
+        display: inline-block;
+    }
+}

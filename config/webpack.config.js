@@ -154,6 +154,7 @@ module.exports = function (webpackEnv) {
     }
     return loaders;
   };
+  
 
   return {
     mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
